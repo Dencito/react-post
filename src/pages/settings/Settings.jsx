@@ -46,7 +46,7 @@ export default function Settings() {
 
   const handleDelete = async () => {
     try {
-      await axios.delete(`/api/users/${user._id}`, {
+      await axios.delete(`https://react-post-six.vercel.app/api/users/${user._id}`, {
         data: { userId: user._id },
       });
       dispatch({ type: "LOGOUT" });

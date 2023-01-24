@@ -6,7 +6,7 @@ export default function Post({ post }) {
   const PF = "https://api-mongodb-p-sts-production.up.railway.app/images/"
   return (
     <div className="post">
-      <Link to={`https://api-mongodb-p-sts-production.up.railway.app/post/${post._id}`} className="link">
+      <Link to={`/post/${post._id}`} className="link">
       {post.photo && <img className="postImg" src={PF+post.photo} alt="" />}
       <div className="postInfo">
         <div className="postCats">
