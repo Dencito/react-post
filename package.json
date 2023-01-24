@@ -37,6 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": "https://api-mongodb-p-sts-production.up.railway.app"
+  }
 }
